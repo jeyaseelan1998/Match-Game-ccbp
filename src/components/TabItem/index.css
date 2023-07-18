@@ -1,0 +1,18 @@
+.tab-item-container {
+  margin-right: 15px;
+}
+
+.tab-button {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.active-tab {
+  color: #fec653;
+  border-bottom: 2px solid #fec653;
+}
