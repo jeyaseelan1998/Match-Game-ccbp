@@ -13,6 +13,7 @@ const NavBar = ({score, timeRemainingInSec}) => {
             <p className='score-count'>{score}</p>
           </li>
           <li className='nav-item'>
+            <img src='https://assets.ccbp.in/frontend/react-js/match-game-timer-img.png' alt='timer' className='timer-icon'/>
             <p className='timeout'>{timeRemainingInSec} Sec</p>
           </li>
         </ul>

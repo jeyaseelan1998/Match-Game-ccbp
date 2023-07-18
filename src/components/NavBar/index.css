@@ -24,6 +24,7 @@ nav {
   display: flex;
   align-items: center;
   user-select: none;
+  margin-right: 10px;
 }
 
 .nav-item p { 
@@ -41,10 +42,14 @@ nav {
 }
 
 .nav-item .timeout {
-  text-align: center;
+  /* text-align: center; */
   font-weight: 500;
   color: #fec653;
   font-size: 18px;
   width: 65px;
-  margin-left: 10px;
+  margin-left: 5px;
+}
+
+.timer-icon {
+  width: 20px;
 }
